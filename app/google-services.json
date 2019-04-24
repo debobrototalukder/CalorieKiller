@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "104109831315",
+    "firebase_url": "https://alfatech2-bfbdc.firebaseio.com",
+    "project_id": "alfatech2-bfbdc",
+    "storage_bucket": "alfatech2-bfbdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104109831315:android:a26e36397df0441a",
+        "android_client_info": {
+          "package_name": "com.example.calorieKiller.ellafs321project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104109831315-i83l5l47353amg3kq76totgq2dtbfu03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calorieKiller.ellafs321project",
+            "certificate_hash": "b53765dd5f0c2bcb4c484c68f705cadbd49fd56f"
+          }
+        },
+        {
+          "client_id": "104109831315-jhbi2o6kpr0osccpqegvg06f27n0oc3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZqAZEiqfir5J5m0swNRIH-sywuC9bCrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104109831315-jhbi2o6kpr0osccpqegvg06f27n0oc3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104109831315:android:81696d60f6ae1e8e",
+        "android_client_info": {
+          "package_name": "com.example.rajeev.alfatech2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104109831315-5r0o7konteoq90a0a5vi40rj3g52uvko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajeev.alfatech2",
+            "certificate_hash": "51f371d2f4bbf15e3eed7af42e6d3a0a9c1477e4"
+          }
+        },
+        {
+          "client_id": "104109831315-jhbi2o6kpr0osccpqegvg06f27n0oc3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZqAZEiqfir5J5m0swNRIH-sywuC9bCrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104109831315-jhbi2o6kpr0osccpqegvg06f27n0oc3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
