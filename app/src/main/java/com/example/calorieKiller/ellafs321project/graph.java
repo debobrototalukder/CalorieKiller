@@ -30,11 +30,11 @@ PieChart pieChart;
         pieChart.setTouchEnabled(false);
 
         ArrayList<PieEntry>  yValues = new ArrayList <> ();
-        yValues.add(new PieEntry(23f, "jumping jacks"));
-        yValues.add(new PieEntry(50, "running"));
+        yValues.add(new PieEntry(23f, "calories burned"));
 
 
-        PieDataSet dataSet = new PieDataSet(yValues,"Calories burned");
+
+        PieDataSet dataSet = new PieDataSet(yValues,"Calories burned during todays session");
         dataSet.setSliceSpace(3f);
         dataSet.setSelectionShift(5f);
         dataSet.setSliceSpace(5);

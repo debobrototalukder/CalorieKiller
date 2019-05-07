@@ -30,8 +30,14 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import com.example.calorieKiller.ellafs321project.R;
 
+
+
+
 public class register extends AppCompatActivity
 {
+
+
+
 
     EditText etfname;
     EditText etlname;
@@ -91,6 +97,10 @@ public class register extends AppCompatActivity
         height = etlheight.getText().toString();
         weight = etlweight.getText().toString();
         gender = etlgender.getText().toString();
+
+        final String gender_modified_male = "Male";;
+        final String gender_modified_female = "Female";;
+
 
 
         //would be resolved only when first name and last name are added and age variable
@@ -157,8 +167,15 @@ public class register extends AppCompatActivity
                     dr.child("Age").setValue(age12);
                     dr.child("Height").setValue(height);
                     dr.child("Weight").setValue(weight);
-                    dr.child("Gender").setValue(gender);
+                    if((gender == "m") || (gender == "M"))
+                    {
+                        dr.child("Gender").setValue(gender_modified_male);
+                    }else
+                    {
+                        dr.child("Gender").setValue(gender_modified_female);
+                    }
                     dr.child("Email").setValue(email1);
+
 
                     //startActivity(new Intent(register.this, login.class)); //CHECK
                     Toast.makeText(register.this, "Successfully Registered! Verification mail has been sent on your registered email id.", Toast.LENGTH_SHORT).show();
@@ -181,6 +198,7 @@ public class register extends AppCompatActivity
 
 
     }
+
 
 
     private void sendEmailVerification()
@@ -221,5 +239,7 @@ public class register extends AppCompatActivity
         }
 
     }
+
+
 
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/roundg"
+    tools:context=".havepin">
+
+    <EditText
+        android:id="@+id/enterpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
+        android:padding="5dp"
+        android:hint="Enter pin"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/okbuttonpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border"
+        android:onClick="okaypinButtonClicked"
+        android:text="ok"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

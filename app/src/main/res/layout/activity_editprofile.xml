@@ -27,56 +27,21 @@
 
 
 
-
-
-
-
-
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:scaleType="centerInside"
-                android:adjustViewBounds="true"
-                android:background="@drawable/circle"
-                android:padding="3dp"
-                android:src="@drawable/user"
-
-
-                />
-
-
-
         </RelativeLayout>
 
         <TextView
-            android:id="@+id/name"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imgUser"
             android:layout_centerHorizontal="true"
-            android:text="Ellaf mrk"
+            android:text="Edit Profile"
             android:textSize="30dp"
             android:layout_marginTop="15sp"
             android:fontFamily="sans-serif-condensed"
             android:textColor="@color/white"
 
             />
-        <TextView
-            android:id="@+id/adress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/name"
-            android:layout_centerHorizontal="true"
-            android:text="Dubai, UAE"
-            android:textSize="18sp"
-            android:layout_marginTop="15sp"
-            android:fontFamily="sans-serif-condensed"
-            android:textColor="@color/white"
-
-            />
-
-
-
 
 
     </RelativeLayout>
@@ -172,7 +137,6 @@
 
 
                 >
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -185,13 +149,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Email"
+                        android:text="Name"
                         android:textColor="@color/headings"
                         android:textSize="14sp"
 
                         />
 
                     <EditText
+                        android:id="@+id/name_edit_profile"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -205,6 +170,7 @@
                 </LinearLayout>
 
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -218,20 +184,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="D0B"
+                        android:text="Age"
                         android:textColor="@color/headings"
                         android:textSize="14sp"
 
                         />
 
                     <EditText
-                        android:id="@+id/dobet"
+                        android:id="@+id/age_edit_profile"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:fontFamily="sans-serif-light"
                         android:textColor="#000000"
-                        android:onClick="dobetClicked"
 
                         />
 
@@ -254,20 +219,23 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gender"
+                        android:text="Gender (m/f)"
                         android:textColor="@color/headings"
                         android:textSize="14sp"
 
                         />
 
-                    <Spinner
-                        android:id="@+id/genderSpinner"
+
+                    <EditText
+                        android:id="@+id/gender_edit_profile"
                         android:layout_width="match_parent"
-                        android:layout_margin="10dp"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
+                        android:layout_margin="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="#000000"
 
                         />
+
 
 
 
@@ -294,6 +262,7 @@
                         />
 
                     <EditText
+                        android:id="@+id/height_edit_profile"
                         android:layout_width="match_parent"
                         android:layout_margin="10dp"
                         android:layout_height="wrap_content"
@@ -323,13 +292,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cureent Weight (KGs)"
+                        android:text="Current Weight (KGs)"
                         android:textColor="@color/headings"
                         android:textSize="14sp"
 
                         />
 
                     <EditText
+                        android:id="@+id/weight_edit_profile"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -345,14 +315,13 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/editprofile"
+                    android:id="@+id/savebutton_edit_profile"
                     android:padding="5dp"
                     android:layout_margin="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/button_border"
-                    android:onClick="save_button_clicked"
                     android:text="Save"
                     android:textColor="#FFFFFF" />
 

@@ -6,9 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".individual"
-    android:background="@drawable/hhhhh">
+    android:background="@drawable/bg">
 
-    <RelativeLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -16,21 +17,34 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp">
 
+        <TextView
+            android:id="@+id/helptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="35dp"
+            android:text="select the desired mode"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
 
         <ImageButton
+            android:layout_marginTop="30dp"
             android:id="@+id/easy"
-            android:layout_width="272dp"
-            android:layout_height="259dp"
+            android:layout_width="238dp"
+            android:layout_height="230dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="20dp"
-            android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:onClick="beginnerButtonClicked"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/easyy" />
+            app:srcCompat="@drawable/stechin"
+            android:layout_gravity="center"/>
 
 
         <TextView
@@ -38,32 +52,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/easy"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center"
             android:text="EASY MODE"
 
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#FFD700"
 
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:textStyle="normal|bold|italic" />
 
 
         <ImageButton
             android:id="@+id/hard"
-            android:layout_width="254dp"
-            android:layout_height="200dp"
+            android:layout_width="257dp"
+            android:layout_height="201dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="359dp"
-
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:onClick="advancedButtonClicked"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/hardd" />
+            app:srcCompat="@drawable/pushup" />
 
         <TextView
             android:id="@+id/hardtext"
@@ -77,7 +89,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#FFD700"
 
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:textStyle="normal|bold|italic" />
 
 
@@ -93,5 +105,5 @@
             app:layout_constraintRight_toRightOf="parent"
             app:menu="@menu/navigation" />
 
-    </RelativeLayout>
+    </LinearLayout>
 </RelativeLayout>

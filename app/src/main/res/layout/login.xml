@@ -62,8 +62,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/button_border"
-            android:onClick="login_button_clicked"
             android:text="LOGIN"
+            android:onClick="login_button_clicked"
             android:textColor="#FFFFFF" />
 
         <LinearLayout

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg">
+    android:background="@drawable/hhhhh">
 
     <TextView
         android:id="@+id/helpTV1"
@@ -12,14 +12,16 @@
         android:layout_margin="20dp"
         android:textSize="15dp"
         android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:textAlignment="center"
-        android:text="These are suggested warmups to be followed by the user for 5 minutes otherwise the user can do any type of warmup they prefer."/>
+        android:text="For easy mode, these is a template for the suggested warmups to be followed for 5 minutes otherwise you can do any type of warmups you prefer for as long as you want."/>
     <Button
         android:onClick="okayButtonPressed"
         android:id="@+id/okayButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#FFFFFF"
         android:background="@drawable/button_border"
         android:text="OK"/>
 </LinearLayout>

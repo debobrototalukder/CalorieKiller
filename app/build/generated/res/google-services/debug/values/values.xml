@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">104109831315-jhbi2o6kpr0osccpqegvg06f27n0oc3n.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://alfatech2-bfbdc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">104109831315</string>
+    <string name="google_api_key" translatable="false">AIzaSyBZqAZEiqfir5J5m0swNRIH-sywuC9bCrY</string>
+    <string name="google_app_id" translatable="false">1:104109831315:android:a26e36397df0441a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBZqAZEiqfir5J5m0swNRIH-sywuC9bCrY</string>
+    <string name="google_storage_bucket" translatable="false">alfatech2-bfbdc.appspot.com</string>
+    <string name="project_id" translatable="false">alfatech2-bfbdc</string>
+</resources>

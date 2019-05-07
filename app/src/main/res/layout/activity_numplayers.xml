@@ -23,59 +23,38 @@
             android:layout_width="173dp"
             android:layout_height="163dp"
             android:layout_gravity="center"
-            android:layout_marginTop="198dp"
+            android:layout_marginTop="118dp"
             android:background="@android:color/transparent"
-            android:onClick="MultiButtonClicked"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/uzerz" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/Next_button"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
-            android:text="Select how many players:"
-            android:textColor="#000000"
-            android:textSize="25sp" />
-
-        <Spinner
-            android:id="@+id/numberOfPlayersSpinner"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="40dp"
-            android:layout_height="wrap_content"></Spinner>
-
-
+            app:srcCompat="@drawable/groop" />
 
 
         <Button
-            android:id="@+id/Next_button"
+            android:id="@+id/create_button"
             android:layout_width="157dp"
             android:layout_height="64dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/button_border"
-            android:onClick="Next_button_clicked"
-            android:text="Next"
+            android:onClick="create_button_clicked"
+            android:text="create game "
             android:textColor="#FFFFFF" />
 
-        <ImageButton
-            android:id="@+id/backbutton"
-            android:layout_width="44dp"
-            android:layout_height="49dp"
-            android:layout_alignParentStart="true"
+
+        <Button
+            android:id="@+id/join_button"
+            android:layout_width="157dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_gravity="left"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="10dp"
-            android:background="@android:color/transparent"
-            android:onClick="home_ButtonClicked"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/back" />
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_border"
+            android:onClick="join_button_clicked"
+            android:text="Join game "
+            android:textColor="#FFFFFF" />
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/helpTV1"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_margin="20dp"
+        android:text="welcome to calorie killer. Experience the competitive and enjoyable atmosphere that encorages you to burn calories. Made by By Alphatech Team : Debo|
+Ilef |Rajeev |Ruqaiya |saarah | Monitored by the Coordinator: Dr Mai El Barachi and mentor: Dr HC Lim "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:onClick="okButtonPressed"
+        android:id="@+id/okButtoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_border"
+        android:text="OK"/>
+</LinearLayout>

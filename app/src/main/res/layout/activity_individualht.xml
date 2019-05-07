@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".individualht"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helptext"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSWorkout"
+            android:text="Start workout!" />
+
+        <Button
+            android:id="@+id/llinkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_border"
+            android:text="Help"
+            android:layout_margin="20dp"
+            android:onClick="helpButtonPressed2"/>
+
+
+        <ImageButton
+            android:id="@+id/cooldown0"
+            android:layout_width="139dp"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/w11" />
+
+        <ImageButton
+            android:id="@+id/cooldown1"
+            android:layout_width="183dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/fit"/>
+        <ImageButton
+            android:id="@+id/cooldown2"
+            android:layout_width="183dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/w12"/>
+
+        <ImageButton
+            android:id="@+id/homebutton"
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="-15dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="homButtonClicked"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/nxttext"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_below="@+id/homebutton"
+            android:layout_gravity="right"
+            android:layout_marginTop="-18dp"
+            android:text="home page"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+

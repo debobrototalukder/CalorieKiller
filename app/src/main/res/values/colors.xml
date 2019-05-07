@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#49BEFF</color>
-    <color name="colorPrimaryDark">#65DCE5</color>
-    <color name="colorAccent">#2F7092</color>
     <color name="address">#FF4500</color>
 
     <color name="headings">#FF4500</color>
@@ -14,5 +11,10 @@
 
     <color name="grey">#E5E5E5</color>
     <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bpmColor">#ff0000</color>
 
 </resources>

@@ -35,6 +35,7 @@ public class login extends AppCompatActivity {
     Button register;
     Button send;
     Button forgotPassword;
+
     EditText email;
     EditText password;
     EditText emailFP;
@@ -55,9 +56,10 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Toast.makeText(this,"Login screen reached",Toast.LENGTH_SHORT).show();
         setContentView(R.layout.login);
         login=(Button) findViewById(R.id.login_button);
-
+        //thinking 2 - Part B
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -158,7 +160,7 @@ public class login extends AppCompatActivity {
     }
 
     //Doubt 2
-    /*public void login_button_clicked(View view){
+    public void login_button_clicked(View view){
         String email;
         String password;
 
@@ -167,7 +169,8 @@ public class login extends AppCompatActivity {
 
 
         Toast.makeText(this,"login Button Clicked",Toast.LENGTH_SHORT).show();
-    }*/
+        Signin();
+    }
 
     private void Signin()
     {
@@ -276,16 +279,8 @@ public class login extends AppCompatActivity {
     public void sendButtonClicked(View view){
         //String email;
         //email=emailFP.getText().toString();
-        Toast.makeText(this,"Check your email",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Check your mail",Toast.LENGTH_SHORT).show();
 
-    }
-
-
-    public void register_button_clicked(View view) {
-
-    }
-
-    public void login_button_clicked(View view) {
     }
 }
 
